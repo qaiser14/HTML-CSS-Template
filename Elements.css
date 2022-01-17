@@ -1,0 +1,885 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#listBox1{
+    z-index: 10;
+    height: 120px;
+    width: 100%;
+    border: 2px solid rgb(192, 197, 202);
+    background-color: white;
+    position: fixed;
+    
+}
+
+.active{
+
+    background-color:burlywood;
+    z-index: 12;
+}
+
+#topLeft{
+
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#nav1{
+
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    top: -48px;
+    font-size: 22px;
+    color: rgb(5, 5, 5);
+    list-style: none;
+
+}
+
+#navlist1{
+
+    display: inline-block;
+    padding: 25px;
+
+}
+
+#genericHeading{
+
+    height: 250px;
+    width: 1150px;
+    /* border: 2px solid;  */
+    margin-left: 100px;
+    position: relative; top: 180px;
+}
+
+
+#hWSubtitle{
+
+    height: 270px;
+    width: 1150px;
+    /* border: 2px solid; */
+    position: relative; top: 220px;
+    margin-left: 100px;
+
+
+}
+
+.paraEle1{
+
+    font-size: 12px;
+    font-family: Arial;
+    color: #484848;
+    position: relative; top: 10px;
+    line-height: 20px;
+    word-spacing: 5px;
+    
+}
+
+#hWSubtitle2{
+
+    height: 270px;
+    width: 1150px;
+    /* border: 2px solid; */
+    position: relative; top: 220px;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.heading{
+
+    color: #484848;
+    font-family: Arial;
+}
+
+.heading3{
+
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.heading4{
+
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.heading5{
+
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.heading6{
+
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+#unorderedList{
+
+    height: 200px;
+    width: 550px;
+    /* border: 2px solid; */
+    position: relative; top:  40px;
+}   
+
+.list1{
+
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#alternate{
+
+    height: 200px;
+    width: 550px;
+    /* border: 2px solid; */
+    position: relative; top: -70px;
+    display: inline-block;
+}   
+
+#gLine{
+
+    height: 1px;
+    width: 550px;
+    border: 1px solid rgb(194, 188, 188);
+    position: relative; top: 10px;
+    
+}
+
+#Ordered{
+
+    height: 250px;
+    width: 300px;
+    /* border: 2px solid; */
+    position: relative; top: -200px;
+    display: inline-block;
+    margin-left: 50px;
+}   
+
+#icons1{
+
+    height: 150px;
+    width: 300px;
+    /* border: 2px solid; */
+    position: relative; top: -220px;
+    display: inline-block;
+    margin-left: 600px;
+    word-spacing: 15px;
+
+}   
+
+
+#colorfacebook{
+
+    color: #f32853;
+    font-size: 2em;
+    position: relative; top: 20px;
+    
+}
+
+
+
+.fa-facebook-f:hover{
+    color: #666;
+
+}
+
+.fa-twitter:hover{
+    color: #666;
+
+}
+
+.fa-instagram:hover{
+    color: #666;
+}
+
+#Action1{
+
+    height: 450px;
+    width: 1150px;
+    /* border: 2px solid; */
+    position: relative; top: 30px;
+    display: inline-block;
+    margin-left: 100px;
+    word-spacing: 15px;
+
+}   
+
+.Button1{
+
+    width: 120px;
+    height: 45px;
+    background-color: #f32853;
+    margin-left: 0px;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.Button1:hover{
+
+    background-color: #666;
+}
+
+.box1{
+
+    height: 70px;
+    width: 420px;
+    /* border: 2px solid; */ */
+    
+}
+
+.Button2{
+
+    background-color: #323037;
+}
+
+.Button3{
+
+    background-color: rgb(168, 161, 161);
+}
+
+
+.Button1Small{
+
+    width: 88px;
+    height: 38px;
+    background-color: #f32853;
+    margin-left: 0px;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.Button1Small:hover{
+
+    background-color: #666;
+}
+
+.Button2Small{
+
+    background-color: #323037;
+}
+
+.Button3Small{
+
+    background-color: rgb(168, 161, 161);
+}
+
+.box2{
+
+    height: 200px;
+    width: 220px;
+    /* border: 2px solid; */
+    position: relative; top: 20px;
+    display: inline-block;
+
+}
+
+.Button1V{
+
+    width: 130px;
+    height: 45px;
+    background-color: #f32853;
+    margin-left: 0px;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* display: inline-block; */
+
+}
+
+.Button1V:hover{
+
+    background-color: #666;
+    margin-top: 10px;
+}
+
+.Button2V{
+
+    background-color: #323037;
+    margin-top: 10px;
+}
+
+.Button3V{
+
+    background-color: rgb(168, 161, 161);
+    margin-top: 10px;
+}
+
+.Button1SmallV{
+
+    width: 88px;
+    height: 38px;
+    background-color: #f32853;
+    margin-left: 0px;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* display: inline-block; */
+
+}
+
+.Button1SmallV:hover{
+
+    background-color: #666;
+    /* position: relative; top: 20px; */
+}
+
+.Button2SmallV{
+
+    background-color: #323037;
+    position: relative; top: 20px;
+}
+
+.Button3SmallV{
+
+    background-color: rgb(168, 161, 161);
+    position: relative; top: 30px;
+}
+
+
+.box3{
+
+    height: 200px;
+    width: 180px;
+    /* border: 2px solid; */
+    position: relative; top: -18px;
+    display: inline-block;
+    margin-left: 40px;
+    display: inline-block;
+
+}
+
+
+.box4{
+
+    height: 200px;
+    width: 280px;
+    /* border: 2px solid; */
+    position: relative; top: 30px;
+    display: inline-block;
+    margin-left: 70px;
+    display: inline-block;
+
+}
+
+.Button1VFit{
+
+    width: 275px;
+    height: 45px;
+    background-color: #f32853;
+    margin-left: 0px;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* display: inline-block; */
+
+}
+
+.Button1VFit:hover{
+
+    background-color: #666;
+    /* margin-top: 15px; */
+}
+
+.Button2VFit{
+
+    background-color: #323037;
+    margin-top: 15px;
+}
+
+.Button3VFit{
+
+    background-color: rgb(168, 161, 161);
+    margin-top: 15px;
+}
+
+
+.Button1VSB{
+
+    width: 275px;
+    height: 38px;
+    background-color: #f32853;
+    margin-left: 0px;
+    position: relative;
+    top: 5px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    /* display: inline-block; */
+
+}
+
+.Button1VSB:hover{
+
+    background-color: #666;
+    margin-top: 10px;
+}
+
+.Button2VSB{
+
+    background-color: #323037;
+    margin-top: 10px;
+}
+
+.Button3VSB{
+
+    background-color: rgb(168, 161, 161);
+    margin-top: 10px;
+}
+
+.box5{
+
+    height: 200px;
+    width: 280px;
+    /* border: 2px solid; */
+    position: relative; top: 0px;
+    display: inline-block;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+
+#Table1{
+
+    height: 480px;
+    width: 1150px;
+    /* border: 2px solid;  */ 
+    position: relative; top: 40px;
+    display: inline-block;
+    margin-left: 100px;
+    word-spacing: 15px;
+
+}  
+
+#Table2{
+
+    height: 450px;
+    width: 1150px;
+    /* border: 2px solid; */
+    position: relative; top: 50px;
+    display: inline-block;
+    margin-left: 100px;
+    word-spacing: 15px;
+
+}  
+
+
+.Button1Big{
+
+    width: 120px;
+    height: 60px;
+    background-color: #f32853;
+    margin-left: 0px;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+
+.box6{
+
+    height: 100px;
+    width: 600px;
+    /* border: 2px solid; */
+    position: relative; top: 30px;
+    display: inline-block;
+    margin-left: 0px;
+    display: inline-block;
+
+}
+
+
+.box7{
+
+    height: 100px;
+    width: 600px;
+    /* border: 2px solid; */
+    position: relative; top: -70px;
+    display: inline-block;
+    margin-left: 630px;
+    display: inline-block;
+
+}
+
+.box8{
+
+    height: 70px;
+    width: 420px;
+    /* border: 2px solid; */
+    position: relative; top: -40px;
+    
+}
+
+
+.Button1icon{
+
+    width: 110px;
+    height: 48px;
+    background-color: #f32853;
+    margin-left: 0px;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.Button1icon:hover{
+
+    background-color: #666;
+}
+
+.Button2icon{
+
+    background-color: #323037;
+}
+
+.Button3icon{
+
+    background-color: rgb(168, 161, 161);
+}
+
+.box9{
+
+    height: 70px;
+    width: 420px;
+    /* border: 2px solid; */
+    margin-top: -20px;
+}
+
+.button4white{
+
+    background-color: rgb(168, 161, 161);
+}
+
+#form1{
+
+    height: 650px;
+    width: 1150px;
+    /* border: 2px solid; */
+    position: relative; top: 80px;
+    display: inline-block;
+    margin-left: 100px;
+    word-spacing: 15px;
+
+}  
+
+.input1{
+
+    height: 40px;
+    width: 560px;
+    background-color: rgba(144, 144, 144, 0.075);
+    margin-top: 30px;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+
+}
+
+.input1Cat{
+
+    width: 1140px;
+
+}
+
+#lowP{
+
+margin-top: 20px;
+
+}
+
+.box10{
+
+    height: 50px;
+    width: 1100px;
+    /* border: 2px solid;  */
+    
+}
+
+.input2Msg{
+
+    width: 1140px;
+    height: 270px;
+
+}
+
+.ButtonsendM{
+
+width: 180px;
+
+}
+
+#Image1{
+
+    height: 1370px;
+    width: 1150px;
+    /* border: 2px solid; */
+    position: relative; top: 100px;
+    display: inline-block;
+    margin-left: 100px;
+    word-spacing: 15px;
+
+} 
+
+#roadPic{
+
+    margin-top: 20px;
+    
+}
+
+
+.img100{
+
+    height: 270px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#leftRight{
+
+    height: 550px;
+    width: 1150px;
+    /* border: 2px solid; */
+    position: relative; top: 120px;
+    display: inline-block;
+    margin-left: 100px;
+    word-spacing: 15px;
+
+} 
+
+.heading10{
+
+    font-size: 16px;
+    margin-top: 30px;
+    word-spacing: 0px;
+    margin-left: 5px;
+}
+
+.img100{
+
+    height: 270px;
+    width: 350px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.img200{
+
+    height: 170px;
+    width: 170px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#pEdit1{
+
+
+    font-size: 16px;
+    font-family: Arial;
+    color: #666;
+    position: relative; top: 10px;
+    line-height: 22px;
+    word-spacing: 10px;
+    left: 10px;
+}
+
+.img300{
+
+    height: 170px;
+    width: 170px;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative; top: 50px;
+
+
+
+}
+
+#pEdit2{
+
+
+    font-size: 16px;
+    font-family: Arial;
+    color: #666;
+    position: relative; top: 60px;
+    line-height: 22px;
+    word-spacing: 10px;
+    left: 10px;
+}
+
+    #lastgreyDiv{
+
+    height: 350px;
+    width: 100%;
+    background-color: #f6f6f6;
+    position: relative; top: 140px;
+
+}
+
+#iconEdit{
+
+    margin-left: 550px;
+    position: relative; top: 100px;
+    font-size: 40px;
+    color: #aaa; 
+    word-spacing: 50px;
+    cursor: pointer;
+}
+
+
+#colorfacebook1{
+
+    color: #aaa;
+}
+.fa-facebook-f:hover{
+    color: #666;
+
+}.fa-twitter:hover{
+    color: #666;
+
+}
+
+.fa-instagram:hover{
+    color: #666;
+}
+
+#endCredits{
+
+    margin-left: 470px;
+    position: relative; top: 160px;
+    font-size: 18px;
+    font-family: Arial;
+    color: #aaa;
+    word-spacing: 20px;
+    
+}
+
+.EndCreditsHover:hover{
+    color: #666;
+    cursor: pointer;
+}
+
+.EndCreditsHover{
+    margin-left: -10px;
+}
+
+#tabletopRow{
+
+    height: 40px;
+    width: 1148px;
+    /* border: 1px solid; */
+    margin-top: 20px;
+}
+
+.tRow1{
+
+    display: inline-block;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.tRow2{
+
+    margin-left: 120px;
+ 
+}
+
+.tRow5{
+margin-left: 500px;
+ 
+}
+
+#tableDataR{
+
+    height: 60px;
+    width: 1148px;
+    /* border: 1px solid;  */
+    background-color:#E5E5E5 ;
+}
+
+.greyline1{
+
+    height: 1px;
+    width: 1148px;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+
+.tRow4{
+
+    color: gray;
+    word-spacing: 0px;
+    position: relative;
+    top: 20px;
+
+}   
+
+#tableDataR2{
+
+    height: 60px;
+    width: 1148px;
+    /* border: 1px solid;  */
+    background-color: white ;
+}

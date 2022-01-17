@@ -1,0 +1,460 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#firstWhite{
+
+    
+    height: 130px;
+    width: 100%;
+    /* border: 2px solid; */ 
+    background-color: #ffff;
+    position: fixed;
+    z-index: 10;
+
+}
+
+body{
+
+    overflow-x: hidden;
+}
+
+#heading1Box{
+
+    height: 30px;
+    width: 950px;
+    /* border:  2px solid; */
+    margin-left: 20px;
+    padding-top: 50px;
+
+}
+
+#iconLike{
+
+    height: 20px;
+    width:  60px;
+    background-color: #3c76e9;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+
+}
+
+#Spatial{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+    
+    
+}
+
+
+
+#listBox1{
+
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid; */
+    
+}
+
+#topLeft{
+
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#nav1{
+
+    display: inline-block;
+    position: relative;
+    left: 900px;
+    top: 120px;
+    font-size: 22px;
+    color: white;
+    list-style: none;
+
+}
+
+#navlist1{
+
+    display: inline-block;
+    padding: 25px;
+
+}
+
+#cursor{
+
+    cursor: pointer;
+}
+
+#mLucas{
+
+    height: 470px;
+    width: 100%;
+    background-color: white;
+}
+
+#redButton{
+
+    width: 220px;
+    height: 60px;
+    background-color: #f32853;
+    margin-left: 540px;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+#redButton:hover{
+
+    background-color: #666;
+}
+
+#lucasTopleft{
+
+    width: 350px;
+    height: 240px;
+    /* border: 2px solid; */
+    margin-left: 200px;
+    position: relative; top: 10px;
+    display: inline-block;
+
+
+}#lucasTopright{
+
+    width: 500px;
+    height: 320px;
+    /* border: 2px solid; */
+    display: inline-block;
+    margin-left: 90px;
+    position: relative; top: 85px;
+}
+
+#fusceU{
+
+    width: 100%;
+    height: 1100px;
+    background-color: #E5E5E5
+
+}
+
+#fusceHeading{
+
+    height: 150px;
+    width: 600px;
+    /* border: 2px solid; */
+    margin-left: 390px;
+    position: relative; top: 110px;
+}
+
+#firstLeftpic{
+
+    height: 500px;
+    width: 575px;
+    background-color: #fff;
+    margin-left: 80px;
+    position: relative;top: 200px;
+    display: inline-block;
+}
+
+#secondLeftpic{
+
+    height: 500px;
+    width: 575px;
+    background-color: #fff;
+    margin-left: 40px;
+    position: relative;top: 200px;
+    display: inline-block;
+}
+
+#nullaButton{
+
+    width: 220px;
+    height: 60px;
+    background-color: #f32853;
+    margin-left: 440px;
+    position: relative;
+    top: 280px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#nullaButton:hover{
+
+    background-color: #666;
+}
+
+#SEDButton{
+
+    width: 220px;
+    height: 60px;
+    background-color: #323037;
+    margin-left: 20px;
+    position: relative;
+    top: 280px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#SEDButton:hover{
+
+    background-color: #666;
+}
+
+
+#maurisDiv{
+
+
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+
+#maurisHeading{
+
+    height: 150px;
+    width: 600px;
+    /* border: 2px solid; */
+    margin-left: 100px;
+    position: relative; top: 110px;
+}
+
+#loremIpsum{
+
+    height: 270px;
+    width: 550px;
+    /* border: 2px solid;  */
+    position: relative; top: 150px;
+    margin-left: 80px;
+    display: inline-block;
+    
+}
+
+#leftsideparas{
+
+    height: 270px;
+    width: 360px;
+    /* border: 2px solid;  */
+    display: inline-block;
+
+}
+
+#image1{
+
+    height: 180px;
+    width: 180px;
+    background-color: rgba(144, 144, 144, 0.25);
+    margin-left: 367px;
+    position: relative; top: -260px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#recuNemo{
+
+    height: 270px;
+    width: 550px;
+    /* border: 2px solid;  */
+    position: relative; top: 150px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+#rightsideparas{
+
+    height: 270px;
+    width: 360px;
+    /* border: 2px solid;  */
+    display: inline-block;
+    margin-left: 188px;
+}
+
+#image2{
+
+    height: 180px;
+    width: 180px;
+    background-color: rgba(144, 144, 144, 0.25);
+    margin-left: 3px;
+    position: relative; top: -260px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#lodantiumFugit{
+
+    height: 270px;
+    width: 550px;
+    /* border: 2px solid; */
+    position: relative; top: -10px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+#leftsideparas2{
+
+    height: 270px;
+    width: 360px;
+    /* border: 2px solid;  */
+    display: inline-block;
+}
+
+#image3{
+
+    height: 180px;
+    width: 180px;
+    background-color: rgba(144, 144, 144, 0.25);
+    margin-left: 367px;
+    position: relative; top: -260px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#porroAliquam{
+
+    height: 270px;
+    width: 550px;
+    /* border: 2px solid;  */
+    position: relative; top: -10px;
+    margin-left: 80px;
+    display: inline-block;
+
+
+}
+
+#rightsideparas2{
+
+    height: 270px;
+    width: 360px;
+    /* border: 2px solid; */
+    display: inline-block;
+    margin-left: 188px;
+}
+
+#image4{
+
+    height: 180px;
+    width: 180px;
+    background-color: rgba(144, 144, 144, 0.25);
+    margin-left: 3px;
+    position: relative; top: -260px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#aeneanE{
+
+    height: 60vh;
+    width: 100%;
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+    background-position: 0% -5%;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    background-attachment: fixed;
+  
+}
+
+#lastDIV{
+
+    height: 350px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+#getinTouch{
+
+    width: 220px;
+    height: 60px;
+    background-color: #f32853;
+    margin-left: 550px;
+    position: relative;
+    top: 180px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+    
+#getinTouch:hover{
+
+    background-color: #666;
+}
+
+#iconEdit{
+
+    margin-left: 550px;
+    position: relative; top: 150px;
+    font-size: 45px;
+    color: #aaa;
+    word-spacing: 50px;
+    cursor: pointer;
+}
+
+#endCredits{
+
+    margin-left: 503px;
+    position: relative; top: 200px;
+    font-size: 20px;
+    font-family: Arial;
+    color: #aaa;
+    word-spacing: 20px;
+}
+#colorfacebook{
+
+    color: #aaa;
+}
+.fa-facebook-f:hover{
+    color: #666;
+}
+
+.fa-twitter:hover{
+    color: #666;
+
+}
+
+.fa-instagram:hover{
+    color: #666;
+}
+/* #endCredits  h5 span:hover{
+color: #666;
+}
+
+     */
+.EndCreditsHover:hover{
+    color: #666;
+}
+.EndCreditsHover{
+    margin-left: -5px;
+}
